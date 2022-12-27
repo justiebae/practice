@@ -1,0 +1,29 @@
+{
+  "name": "practice",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "solving different tasks here",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "test:coverage": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --coverage",
+    "test:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justiebae/practice.git"
+  },
+  "author": "Gregory Vinogradov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justiebae/practice/issues"
+  },
+  "homepage": "https://github.com/justiebae/practice#readme",
+  "volta": {
+    "node": "18.12.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^29.3.1"
+  }
+}
